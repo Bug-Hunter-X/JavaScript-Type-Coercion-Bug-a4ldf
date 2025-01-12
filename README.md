@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in JavaScript related to type coercion. The `foo` function intends to add two numbers, but due to JavaScript's loose typing, it concatenates strings and numbers when one is a string. The `bar` function calls `foo` with a number and string, resulting in string concatenation.
